@@ -1,77 +1,34 @@
-<p align="center">
-  <img src="src/images/logo_elastic.png" width="60"  alt="Elastic Logo"/>
-</p>
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-<h1 align="center">
-  Elastic's Next.js EUI Starter
-</h1>
+## Getting Started
 
-Jump right in to building prototypes with [EUI](https://github.com/elastic/eui).
+First, run the development server:
 
-_🚩 This starter is not constantly maintained and may get out of sync with the latest EUI release._
+```bash
+npm run dev
+# or
+yarn dev
+```
 
-## 🚀 Super-quick start using CodeSandbox
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-1. Go to
-   [https://codesandbox.io/s/github/elastic/next-eui-starter](https://codesandbox.io/s/github/elastic/next-eui-starter)
-   and start editing. CodeSandbox will fork the sandbox when you make
-   changes!
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-## 🚀 Quick start
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-1.  **Install yarn**
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-    This starter expects to use [yarn](https://yarnpkg.com/) to manage
-    dependencies, so go install it.
+## Learn More
 
-1.  **Copy the Next.js starter**
+To learn more about Next.js, take a look at the following resources:
 
-    Clone the repository:
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-    ```sh
-    git clone https://github.com/pejonic/nextjs-eui-starter.git my-eui-starter
-    ```
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-1.  **Start developing.**
+## Deploy on Vercel
 
-    Navigate into your new site’s directory and start it up.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-    ```sh
-    cd nextjs-eui-starter/
-
-    # Install depdendencies.
-    yarn
-
-    # Optional: start a new git project
-    rm -rf .git && git init && git add . && git commit -m "Initial commit"
-
-    # Start the dev server
-    yarn dev
-    ```
-
-1.  **Open the source code and start editing!**
-
-    Your site is now running at `http://localhost:3000`!
-
-    Open the `my-eui-starter` directory in your code editor of choice and edit `src/pages/index.tsx`. Save your changes and the browser will update in real time!
-
-1. **Deploy your site to GitHub Pages**
-
-    When you're ready to deploy and share your site to GitHub Pages, you can use the provided `yarn build-docs` script to do so. The first time you do this, you need to do some preparation:
-
-    1. (Optional) If you need to, set the `pathPrefix` option in `next.config.js` to reflect the name of your GitHub repo. The starter kit will try to derive this itself, so you're unlikely to see to do anything here.
-    1. (Optional) Commit the above change
-    1. Create the GitHub pages branch: `git branch gh-pages`
-
-    Then whenever you want to update your site:
-
-    1. Commit any pending changes
-    1. Run `yarn build-docs`
-    1. Publish the `master` and `gh-pages` branches by pushing them to GitHub: `git push origin master gh-pages`
-    1. Edit your repository settings to ensure your repository is configured so that the `gh-pages` branch is used for serving the site. (You only need to do this once, but you have to push the branch before you can change this setting)
-    1. Access your site at https://your-username.github.io/repo-name. There
-       can be a slight delay before changes become visible.
-
----
-
-
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
