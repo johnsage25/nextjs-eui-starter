@@ -29,7 +29,7 @@ _🚩 This starter is not constantly maintained and may get out of sync with the
     Clone the repository:
 
     ```sh
-    git clone https://github.com/elastic/next-eui-starter.git my-eui-starter
+    git clone https://github.com/pejonic/nextjs-eui-starter.git my-eui-starter
     ```
 
 1.  **Start developing.**
@@ -37,7 +37,7 @@ _🚩 This starter is not constantly maintained and may get out of sync with the
     Navigate into your new site’s directory and start it up.
 
     ```sh
-    cd my-eui-starter/
+    cd nextjs-eui-starter/
 
     # Install depdendencies.
     yarn
